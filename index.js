@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { MainApp } from "./src/pages";
-import reportWebVitals from "./src/reportWebVitals";
+import { MainApp } from "./pages";
+import reportWebVitals from "./reportWebVitals";
 import "./style/Tailwind.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

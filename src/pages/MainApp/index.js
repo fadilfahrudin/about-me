@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import { About, Home } from "../../pages";
 
-const Routes = () => {
+const MainApp = () => {
   return (
     <div>
       <Header />
@@ -23,4 +23,4 @@ const Routes = () => {
   );
 };
 
-export default Routes;
+export default MainApp;
