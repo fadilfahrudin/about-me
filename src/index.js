@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import reportWebVitals from "./reportWebVitals";
-import Routes from "./config/Router";
+import { MainApp } from "./src/pages";
+import reportWebVitals from "./src/reportWebVitals";
 import "./style/Tailwind.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Routes />
+    <MainApp />
   </React.StrictMode>
 );
 
